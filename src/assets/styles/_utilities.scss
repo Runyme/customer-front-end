@@ -1,0 +1,30 @@
+.transition {
+  transition: all .4s ease;
+}
+
+.border-l-transparent {
+  border-left-color: theme('colors.transparent');
+}
+
+.absolute-center {
+  @apply absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.absolute-center-x {
+  @apply absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.absolute-center-y {
+  @apply absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bg-white-75 {
+  background-color: rgba(255, 255, 255, .75)
+}

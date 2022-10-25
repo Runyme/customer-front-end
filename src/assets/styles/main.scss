@@ -1,0 +1,9 @@
+@import "../../../node_modules/vue-snack/dist/vue-snack.min.css";
+@import "bulma";
+@tailwind base;
+@import "base";
+@tailwind components;
+@import "components";
+@import "animations";
+@tailwind utilities;
+@import "utilities";

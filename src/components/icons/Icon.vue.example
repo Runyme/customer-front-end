@@ -1,0 +1,15 @@
+<template>
+  <Icon-Template :size="size">
+    // SVG ICON
+  </Icon-Template>
+</template>
+
+<script>
+
+import IconTemplate from '@/components/icons/Template'
+
+export default {
+  props: ['size'],
+  components: { IconTemplate }
+}
+</script>
